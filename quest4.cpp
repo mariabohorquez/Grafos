@@ -33,9 +33,10 @@ bool dfs(int u) {
 // Our matching algorithm that calls dfs
 int match() {
 	int i, value = 0;
-	for (i = 0; i < MAX; i++)
+	for (i = 0; i < MAX; i++) {
 		Left[i] = Right[i] = -1;
 		visited[i] = 0;
+	}
 	bool done;
 	do {
 		done = true;
