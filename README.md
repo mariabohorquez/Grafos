@@ -13,3 +13,6 @@ Desafíos de Spoj en C++:sunglasses::
 NOTE: solution gives Segmentation Fault in the terminal, but Spoj accepts it, it also ran perfectly in Ideone.com.
 - [Pothole](http://www.spoj.com/problems/POTHOLE/) :arrow_right: Max flow with a a slight variation of Floyd-Warshall, Edmonds-Karp (our way of searching paths is defined).
 
+![Proof of them working](https://github.com/mariabohorquez/Grafos/Screenshot_20180414_221551.png)
+
+
